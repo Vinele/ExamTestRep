@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e4494d5bb04744f58d4a70c19d8b0578" Name="Diagram1">
+        <EntityTypeShape EntityType="VolochaevModel.Category" Width="1.5" PointX="0.75" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="VolochaevModel.Manufacturer" Width="1.5" PointX="0.75" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VolochaevModel.Order" Width="1.5" PointX="3" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VolochaevModel.OrderProduct" Width="1.5" PointX="5.25" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VolochaevModel.PickupPoint" Width="1.5" PointX="0.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="VolochaevModel.Product" Width="1.5" PointX="3" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VolochaevModel.Role" Width="1.5" PointX="1.5" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VolochaevModel.Status" Width="1.5" PointX="0.75" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="VolochaevModel.Supplier" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VolochaevModel.User" Width="1.5" PointX="0.75" PointY="14.5" IsExpanded="true" />
+        <AssociationConnector Association="VolochaevModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="VolochaevModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="VolochaevModel.FK__OrderProd__Order__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="VolochaevModel.FK_Order_PickupPoint" ManuallyRouted="false" />
+        <AssociationConnector Association="VolochaevModel.FK_Order_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="VolochaevModel.FK_Order_User" ManuallyRouted="false" />
+        <AssociationConnector Association="VolochaevModel.FK__OrderProd__Produ__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="VolochaevModel.FK_Product_Supplier" ManuallyRouted="false" />
+        <AssociationConnector Association="VolochaevModel.FK__User__RoleId__3D5E1FD2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
